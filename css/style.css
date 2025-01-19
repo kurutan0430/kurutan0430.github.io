@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "img img img img"
+    ". . message ."
+    ". button button.";
+}
+
+p{
+    text-align: left;
+}
+
+.header{
+    grid-area: header;
+}
+
+.img{
+    grid-area: img;
+}
+
+.message{
+    grid-area: message;
+}
+
+.button{
+    padding-top: 50px;
+    text-align: center;
+    grid-area: button;
+}
+
+body {
+    display: grid;
+}
